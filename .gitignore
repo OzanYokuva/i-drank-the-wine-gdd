@@ -1,0 +1,138 @@
+# ============================================================
+# I Drank The Wine - GDD Repository
+# .gitignore file
+# ============================================================
+
+# ============================================================
+# Project Specific
+# ============================================================
+
+# Ignore folder - for scripts and temporary files
+ignore/
+ignore/*
+
+# ============================================================
+# Operating System Files
+# ============================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ============================================================
+# IDE and Editor Files
+# ============================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (IntelliJ, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Notepad++
+*.bak
+
+# ============================================================
+# Temporary and Cache Files
+# ============================================================
+
+# General temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Backup files
+*.backup
+*.old
+*_backup
+*_old
+
+# ============================================================
+# Build and Compilation
+# ============================================================
+
+# Build directories
+build/
+dist/
+out/
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ============================================================
+# Documentation Build Tools
+# ============================================================
+
+# MkDocs
+site/
+
+# Sphinx
+_build/
+_static/
+_templates/
+
+# ============================================================
+# Version Control
+# ============================================================
+
+# Git
+*.orig
+*.rej
+
+# ============================================================
+# Personal Notes (Optional - Uncomment if needed)
+# ============================================================
+
+# personal-notes/
+# drafts/
+# scratch/
+
+# ============================================================
+# Large Binary Files (Adjust as needed)
+# ============================================================
+
+# Uncomment if you want to ignore large asset files
+# *.psd
+# *.ai
+# *.zip
+# *.rar
+# *.7z
+
+# ============================================================
+# END
+# ============================================================
