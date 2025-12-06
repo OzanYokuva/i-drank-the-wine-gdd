@@ -1,4 +1,4 @@
-# I Drank The Wine - Game Design Document
+# I Drank The Wine: Inheritance - Game Design Document
 
 **Version:** 0.1.0  
 **Last Updated:** December 1, 2024  
@@ -9,9 +9,9 @@
 
 ## 📋 Document Information
 
-**Authors:** [Team Names]  
-**Contributors:** [Contributors]  
-**Reviewers:** [Reviewers]  
+**Authors:** Ozan Yokuva, Kerem Yokuva  
+**Contributors:** Expected  
+**Reviewers:** Eventually  
 
 **Purpose:** This document serves as the central reference for all design decisions, features, and vision for "I Drank The Wine".
 
@@ -19,7 +19,7 @@
 
 ## 🎯 Executive Summary
 
-**I Drank The Wine** is a roguelike side-scrolling brawler that combines intense skill-based combat with a deeply philosophical narrative about karma, cause and effect, and the cycle of evil in our world.
+**I Drank The Wine: Inheritance** is a roguelike side-scrolling brawler that combines intense skill-based combat with a deeply philosophical narrative about identity, inheritance, karma, and the cycle of anger that burns away false selves to reveal who we truly are.
 
 **Genre:** Roguelike Side-Scrolling Brawler  
 **Platform:** PC (Primary), Mobile, Console (Planned)  
@@ -27,7 +27,7 @@
 **Target Audience:** Action game enthusiasts, story-driven gamers, 18-35 age group  
 **Development Stage:** Demo Complete (3 playable stages)
 
-**Core Hook:** Experience a reverse narrative through multiple heroes fighting against a silent global invasion, discovering how evil, reaction, and corruption form an interconnected cycle—all while delivering weighty, skill-based combat wrapped in philosophical reflection.
+**Core Hook:** Experience a reverse narrative through heroes who carry the blood of history's greatest warriors—fighting against a silent global invasion while discovering that their righteous anger burns away false identities layer by layer, revealing their true inheritance and ultimate role in an eternal balance.
 
 ---
 
@@ -35,28 +35,59 @@
 
 ### Vision Statement
 
-*"Through the eyes of heroes consumed by righteous fury, discover that the greatest evil often wears the mask of justice. I Drank The Wine challenges players to look beyond their anger and see the complete cycle of cause, effect, and consequence."*
+*"Society buries our true names under borrowed identities. Through righteous fury, we burn away these false layers—discovering we carry the blood of history's warriors, but inheriting not their rage, but their wisdom: that balance, not destruction, is the path forward."*
 
 ### Core Pillars
 
-#### 1. **Meaningful Combat**
+#### 1. **Meaningful Combat** 🥊
 - Every strike has weight and impact
 - Skill-based, timing-focused gameplay
 - Fast, fluid, and deeply tactical
 - Realistic combat physics with environmental interaction
+- **THIS IS THE CORE** - Everything else enhances this
 
 #### 2. **Reverse Narrative Discovery**
 - Story told backwards—from reaction to cause
 - Multiple heroes, multiple perspectives
-- Gradually reveals the full picture of evil's cycle
+- Gradually reveals the full picture of the cycle
 - Each hero unaware of the others' struggles
+- Players discover what anger prevents heroes from seeing
 
-#### 3. **Philosophical Depth**
-- Woven with quotes from famous philosophers
-- Explores karma, justice, and human nature
-- Addresses real-world issues through metaphor
-- Story enhances experience without dictating gameplay
-- Built on a philosophical triangle foundation (see Philosophy Framework below)
+<details>
+<summary>🚨 SPOILER: Narrative Revelation</summary>
+
+**The twist:**
+- Heroes believe they're destroyers of evil
+- Gradually discover their fury perpetuates the cycle
+- Effect → Evil → Reaction → Effect (endless loop)
+- Final understanding: balance > destruction
+- True role: balancers, not destroyers
+
+</details>
+
+#### 3. **Philosophical Depth & Identity** 📖
+- Built on philosophical triangle (Eckhart, Jung, Buddha, Game Motto)
+- Explores identity, inheritance, anger as purifying fire
+- Heroes carry bloodlines of historical warriors
+- Society's false identities vs. true inheritance
+- Addresses real-world pressures that bury our true selves
+- **Story enhances experience without affecting gameplay**
+- Think of it as "an interactive book you punch your way through"
+
+**Game Motto:**
+> *"No true self can emerge until every false identity is consumed by flame."*
+
+<details>
+<summary>🚨 SPOILER: What Inheritance Means</summary>
+
+**True inheritance:**
+- Not about being destroyers like ancestors appeared to be
+- About being balancers like ancestors truly were
+- Historical heroes understood the necessity of opposition
+- True wisdom = finding your role in eternal balance
+- You don't destroy evil—you lock hands with it
+
+</details>
 
 #### 4. **Roguelike Replayability**
 - Each run is unique
@@ -72,15 +103,51 @@
 
 *"Final Fight meets philosophical karma exploration—a skill-based brawler where you fight through cities consumed by corruption, experiencing a backwards narrative that reveals how evil perpetuates itself."*
 
-### Core Theme: Karma & The Cycle of Evil
+### Core Theme: Identity, Inheritance & The Cycle of Anger
 
-The game explores a silent invasion spreading across global cities. Behind a facade of peace, corruption rises, crime spreads, and order collapses. Players witness the reaction—heroes rising to fight—but gradually discover the causes, seeing how effect, evil, and reaction form an endless cycle.
+A silent invasion spreads across global cities. Behind a facade of peace, corruption rises, crime spreads, order collapses. Heroes rise independently—each carrying the blood of history's greatest warriors, though they've forgotten their true names.
+
+**The Journey:**
+- Society buried their true identities under false names
+- Like Spirited Away's river spirit: forget your name, lose yourself
+- Anger becomes the fire that burns away false layers
+- Layer by layer: fury → frustration → doubt → self-awareness → new fury
+- Eventually, true inheritance emerges from the ashes
+
+**Playable Characters & Their Bloodlines:**
+- **Cengiz** → Descendant of Hulagu Khan
+- **[Character 2]** → Bloodline of Joan of Arc
+- **[Character 3]** → Bloodline of Baldwin IV
+- **[Character 4]** → Bloodline of Richard the Lionheart
+
+Each believes they fight a local battle, unaware they're all discovering the same truth through different lenses.
 
 **Key Questions Explored:**
-- What creates the evil we fight against?
-- How does righteous anger blind us to larger truths?
-- Can breaking the cycle start with understanding it?
-- What role does the individual play in systemic corruption?
+- Who are you when society's labels burn away?
+- What does your bloodline truly teach you?
+- Is fury the answer, or the question?
+- Can you break a cycle by fighting, or only by understanding?
+
+<details>
+<summary>🚨 SPOILER: The Cycle's True Nature</summary>
+
+**What players discover:**
+
+The cycle isn't about good vs. evil—it's about balance vs. imbalance.
+
+- Effect → Evil → Reaction → Effect (repeats endlessly)
+- Heroes' righteous fury IS part of the cycle
+- Fighting perpetuates what they oppose
+- Evil cannot be destroyed, only balanced
+- True inheritance: understanding your role as balancer
+- Lock hands with opposition, don't annihilate it
+
+**The "higher measure":**
+Without understanding the complete cycle, your righteous actions become indistinguishable from evil. Good and evil collapse into the same shadow when you act from fury alone.
+
+The higher measure = seeing the pattern and your place in it.
+
+</details>
 
 ### Philosophy Framework: The Triangular Foundation
 
@@ -97,11 +164,14 @@ The game's philosophical depth is built on three interconnected pillars forming 
 **Thematic Purpose:**  
 These quotes form the base of our philosophical triangle. They represent the hero's journey—the necessity of confronting one's darkest moments, accepting complete vulnerability, and witnessing the worst of reality before true understanding can emerge. Every hero in our story must "become nothing" and let their "roots reach hell" before they can see beyond their anger.
 
+**Jung's True Meaning:**  
+This is an **internal journey** to your darkest self—shadow work, confronting suppressed aspects of yourself. Like Dante's Inferno: you must descend to the bottom to escape. Not about witnessing external evil, but facing the darkness buried within.
+
 **Narrative Application:**  
 - Heroes start consumed by righteous fury
-- Each must face their personal "hell"
-- Through losing everything, they gain clarity
-- Transformation requires complete vulnerability
+- Each must face their personal "hell"—their own shadows
+- Through losing everything false, they find what's real
+- Transformation requires complete vulnerability and ego death
 
 #### **Point 3: The Cycle Continues Until Understood**
 
@@ -109,7 +179,10 @@ These quotes form the base of our philosophical triangle. They represent the her
 > — Buddha
 
 **Thematic Purpose:**  
-Represents the roguelike nature of both gameplay and narrative. The cycle of evil, reaction, and effect repeats endlessly until its true nature is understood. Players experience this through repeated runs, each revealing more of the truth.
+Represents the roguelike nature of both gameplay and narrative. The cycle of anger, reaction, and effect repeats endlessly until its true nature is understood. Players experience this through repeated runs, each revealing more truth.
+
+**Anger's Layers:**  
+Anger → Frustration → Doubt → Self-awareness → New anger (cycle repeats until understood)
 
 **Narrative Application:**  
 - The cycle of corruption perpetuates itself
@@ -117,19 +190,34 @@ Represents the roguelike nature of both gameplay and narrative. The cycle of evi
 - Each playthrough reveals new layers
 - Understanding breaks the cycle, not violence alone
 
-#### **Point 4 (Game Motto): The Collapse of Moral Certainty**
+#### **Point 4 (Game Motto): The Collapse of False Identity**
 
-> *"Without a higher measure, good and evil collapse into the same shadow."*  
-> — I Drank The Wine
+> *"No true self can emerge until every false identity is consumed by flame."*  
+> — I Drank The Wine: Inheritance
 
 **Thematic Purpose:**  
-The philosophical twist and ultimate revelation. When heroes act purely from anger without understanding the complete cycle, their "righteous" actions become indistinguishable from the evil they fight. This is the game's central revelation—delivered gradually through the reverse narrative.
+The core revelation. Society forces names, labels, identities upon us. Like Spirited Away's river spirit forgetting its name, we forget who we truly are. Anger becomes the fire that burns away false layers, revealing the inheritance beneath.
+
+**The Journey:**
+```
+False identity (what society calls you)
+    ↓ (anger burns layer)
+Fears and anxieties
+    ↓ (anger burns layer)
+Suppressed true self
+    ↓ (anger burns layer)
+INHERITANCE - Your true name
+```
 
 **Narrative Application:**  
-- Heroes believe they fight for justice
-- Without seeing the full cycle, their fury perpetuates it
-- The "higher measure" is complete understanding
-- The twist: heroes are part of the problem they fight
+- Heroes carry bloodlines of historical warriors
+- But they've forgotten who they truly are
+- Society buried their true names under false identities
+- Anger strips away these false layers, one by one
+- Eventually: they remember
+
+<details>
+<summary>🚨 SPOILER: Complete Philosophical Resolution</summary>
 
 ### How These Pillars Work Together
 
@@ -141,17 +229,34 @@ The philosophical twist and ultimate revelation. When heroes act purely from ang
                        ╱     ╲
                       ╱  GAME ╲
                      ╱   MOTTO ╲
-                    ╱  (Twist)  ╲
+                    ╱  (Identity)╲
                    ╱             ╲
-Eckhart/Jung ────────────────────── Gameplay Loop
-(Foundation)                        (Revelation)
+Eckhart/Jung ────────────────────── Balance
+(Foundation)                        (Resolution)
 ```
 
-The philosophical triangle guides both narrative structure and player experience:
-1. **Foundation (Eckhart/Jung):** Heroes must hit rock bottom
-2. **Cycle (Buddha):** Pattern repeats until understood  
-3. **Twist (Motto):** Righteous fury without wisdom = more evil
-4. **Resolution:** Only complete understanding breaks the cycle
+**The philosophical triangle guides both narrative structure and player experience:**
+
+1. **Foundation (Eckhart/Jung):** Heroes must hit rock bottom, face their darkest selves
+2. **Cycle (Buddha):** Pattern repeats until understood through anger's layers
+3. **Identity (Motto):** False identities burn away, true inheritance emerges
+4. **Resolution:** Only complete understanding reveals the truth
+
+**The ultimate revelation:**
+- Evil cannot be destroyed, only balanced
+- Heroes are not destroyers, but authentic selves finding their place
+- True inheritance = being yourself, which naturally creates balance
+- Lock hands with opposition, don't annihilate it
+- Your ancestors were themselves—that's what made them perfect pieces
+
+**"Higher Measure" Quote (Supporting Philosophy):**
+> *"Without a higher measure, good and evil collapse into the same shadow."*
+
+Without understanding the complete cycle, righteous fury becomes indistinguishable from evil. The "higher measure" is seeing the pattern and being your authentic self within it—then choosing balance over destruction.
+
+</details>
+
+*For complete philosophical framework, see [philosophy-framework.md](philosophy-framework.md)*
 
 ### Narrative Structure: Reverse Discovery
 
@@ -191,37 +296,70 @@ Each playable character has their own perspective and story, unaware of the othe
 
 ## ⭐ Unique Selling Points (USPs)
 
-### What Makes "I Drank The Wine" Different?
+### What Makes "I Drank The Wine: Inheritance" Different?
 
-#### 1. **Philosophical Brawler**
-Unlike typical beat 'em ups, the game weaves philosophical depth into every aspect—quotes, themes, and narrative structure challenge players to think while they fight.
+> "What truly sets the game apart is its fusion of deep skill-based combat with survivor-style card mechanics and realistic physics—all wrapped in a philosophical story that tackles today's real-world issues through the lens of historical bloodlines and inherited fury."
 
-#### 2. **Reverse Narrative Structure**
-Starting from effect and working backwards to cause creates a unique mystery-solving experience in an action game genre.
-
-#### 3. **Three Combat Identities Per Hero**
-Each character offers three distinct playstyles:
-- **Core Style:** Bare-hands fighting
-- **Weapon Style 1:** Close-quarters specialty
-- **Weapon Style 2:** Heavy or extended-range option
-
-This triples variety and replayability.
-
-#### 4. **Deep Skill System + Survivor-Style Cards**
-Combines roguelike card collection with permanent skill progression, creating endless build possibilities.
-
-#### 5. **Realistic Combat Physics**
+#### 1. **🥊 Weighty, Timing-Based Combat**
+The foundation of everything. Fast, fluid combat with:
+- Weapon speed variation affecting rhythm and strategy
+- Reactive hit-stun system
+- Environmental collision damage
 - Deflect thrown objects mid-air
 - Knock ground items toward enemies
 - Send enemies flying into each other
-- Environmental collision damage
-- Weight and momentum matter
+- Every strike matters, every hit has weight
 
-#### 6. **Interconnected Real-World Cities**
-Each city (Paris, Istanbul, London, Tokyo) represents a stage in the narrative and unlocks based on story progression, creating a globally connected experience.
+#### 2. **🃏 Deep Skill System + Survivor-Style Cards**
+Combines roguelike card collection with permanent skill progression:
+- Weapon cards change your combat style mid-run
+- Item cards enhance abilities and unlock combos
+- Build variety creates endless possibilities
+- Permanent meta-progression between runs
+- Dynamic playstyle evolution under pressure
 
-#### 7. **Empathy Through Fury**
-Players experience righteous anger alongside heroes, then gradually discover what this anger prevents them from seeing—creating powerful emotional impact.
+#### 3. **⚔️ Three Combat Identities Per Hero**
+Each character offers three distinct playstyles:
+- **Core Style:** Bare-hands fighting with upgradeable abilities
+- **Weapon Style 1:** Close-quarters specialty
+- **Weapon Style 2:** Heavy or extended-range alternative
+
+This triples variety and replayability per character.
+
+#### 4. **💥 Realistic Combat Physics**
+Combat feels tactical and impactful:
+- Objects have weight and momentum
+- Environmental hazards matter
+- Chain reactions create strategic depth
+- Combo branching (punches → kicks with timing)
+- Sprint attacks for aggressive positioning
+- Ground enemy punishment mechanics
+
+#### 5. **🌍 Interconnected Real-World Cities**
+Each city represents a stage in both narrative and gameplay:
+- Paris, Istanbul, London, Tokyo
+- Multi-stage routes with branching paths
+- Mini-bosses and elite encounters
+- Powerful main boss per city
+- Story progression unlocks new routes across cities
+- Global narrative through urban battlegrounds
+
+#### 6. **🔁 Roguelike Replayability**
+Each run is unique:
+- Procedurally varied encounters
+- Permadeath with permanent progression
+- Risk/reward decision-making
+- Character mastery system
+- Every fall is a lesson, every run makes you stronger
+
+#### 7. **📖 Philosophical Story Enhancement**
+The "krema on top"—enhances experience without affecting gameplay:
+- Tackles real-world issues from unexpected angles
+- Inheritance and identity exploration
+- Philosophical depth through Eckhart, Jung, Buddha
+- Reverse narrative discovery
+- **Think: "An interactive book you punch your way through"**
+- Story enriches the experience, combat drives it
 
 ---
 
