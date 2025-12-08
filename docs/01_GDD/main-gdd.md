@@ -501,11 +501,30 @@ Multiple heroes, each with:
   - Living, breathing world that reacts to combat
 
 ### Audio Direction
-[To be detailed in Audio Documentation]
 
-**Direction Notes:**
-- Impactful combat sound design
-- Atmospheric music reflecting philosophical themes
+**Voice Acting & Dialogue:**
+- In-game dialogues developed with AI voice artists
+- Primary language: English
+- Subtitles supported in 12 languages (see Localization section)
+- Character voice direction for emotional range and personality
+
+**Music & Ambience:**
+- Game soundtrack: AI-generated compositions
+- Atmospheric soundscapes for each city
+- Dynamic music system responding to combat intensity
+- Demo trailer music: AI-generated
+- Thematic motifs reflecting philosophical undertones
+
+**Sound Effects:**
+- Base: Professional SFX libraries
+- Enhanced with manual recordings and audio manipulation
+- Combat impacts with weight and variation
+- Environmental audio (ambient city sounds, interactive objects)
+- UI feedback sounds
+
+**Audio Philosophy:**
+- Impactful combat sound design prioritizing combat feel
+- Atmospheric music supporting narrative themes
 - Environmental audio enhancing city immersion
 - Silence used strategically for dramatic moments
 
