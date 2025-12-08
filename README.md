@@ -1,6 +1,6 @@
-# I Drank The Wine - Game Design Documentation
+# I Drank The Wine: Inheritance - Game Design Documentation
 
-> A comprehensive game design document repository for "I Drank The Wine"
+> A comprehensive game design document repository for "I Drank The Wine: Inheritance"
 
 ## 📋 Table of Contents
 
@@ -15,16 +15,16 @@
 
 ## 🎮 About This Project
 
-**"I Drank The Wine"** is [brief description - to be filled].
+**"I Drank The Wine: Inheritance"** is a roguelike side-scrolling brawler that combines intense skill-based combat with a deeply philosophical narrative about identity, inheritance, karma, and the cycle of anger that burns away false selves to reveal who we truly are.
 
 This repository contains all game design documentation, technical specifications, creative assets references, and project management materials.
 
 ### Project Status
-- **Stage:** [Concept / Pre-production / Production / Testing]
+- **Stage:** Demo Complete → Pre-Production Planning
 - **Current Version:** 0.1.0
-- **Last Updated:** [Date]
-- **Target Platforms:** [PC / Console / Mobile / etc.]
-- **Engine:** [Unity / Unreal / Godot / Custom]
+- **Last Updated:** December 1, 2024
+- **Target Platforms:** PC (Demo Ready), Mobile/Console (Planned)
+- **Engine:** Unity + SteamWorks
 
 ---
 
@@ -139,10 +139,10 @@ Example:
 
 ## 📞 Contact & Links
 
-- **Project Lead:** Ozan YOKUVA
-- **Repository:** [\[GitHub Link\]](https://github.com/OzanYokuva)
-- **Issues/Tasks:** [Link to issue tracker]
-- **Team Communication:** [Discord/Slack/etc.]
+- **Project Lead:** Ozan Yokuva
+- **Repository:** [https://github.com/OzanYokuva/i-drank-the-wine-gdd](https://github.com/OzanYokuva/i-drank-the-wine-gdd)
+- **Issues/Tasks:** [GitHub Issues](https://github.com/OzanYokuva/i-drank-the-wine-gdd/issues)
+- **Team Communication:** [TBD]
 
 ---
 
@@ -152,5 +152,5 @@ Example:
 
 ---
 
-*Last updated: [Date]*
-*Maintained by: [Team/Person name]*
+*Last updated: December 1, 2024*
+*Maintained by: Ozan Yokuva, Kerem Yokuva*

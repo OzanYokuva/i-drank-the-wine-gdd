@@ -1,7 +1,7 @@
 # I Drank The Wine: Inheritance - Game Design Document
 
-**Version:** 0.1.22  
-**Last Updated:** December 8, 2025  
+**Version:** 0.1.0  
+**Last Updated:** December 1, 2024  
 **Document Status:** In Progress  
 **Project Phase:** Demo Complete → Pre-Production Planning
 
