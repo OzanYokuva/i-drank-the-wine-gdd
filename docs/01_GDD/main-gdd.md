@@ -1,7 +1,7 @@
 # I Drank The Wine: Inheritance - Game Design Document
 
-**Version:** 0.1.0  
-**Last Updated:** December 1, 2024  
+**Version:** 0.1.22  
+**Last Updated:** December 8, 2025  
 **Document Status:** In Progress  
 **Project Phase:** Demo Complete → Pre-Production Planning
 
@@ -116,9 +116,13 @@ A silent invasion spreads across global cities. Behind a facade of peace, corrup
 
 **Playable Characters & Their Bloodlines:**
 - **Cengiz** → Descendant of Hulagu Khan
-- **[Character 2]** → Bloodline of Joan of Arc
-- **[Character 3]** → Bloodline of Baldwin IV
-- **[Character 4]** → Bloodline of Richard the Lionheart
+- **[TBD]** → Bloodline of Joan of Arc
+- **[TBD]** → Bloodline of Baldwin IV
+- **[TBD]** → Bloodline of Richard the Lionheart
+- **[TBD]** → Bloodline of Emilia Platter
+- **[TBD]** → Bloodline of Hattori Hanzo
+
+**Total: 6 playable heroes planned**
 
 Each believes they fight a local battle, unaware they're all discovering the same truth through different lenses.
 
@@ -406,11 +410,14 @@ The "krema on top"—enhances experience without affecting gameplay:
 
 ### Planned Features (In Development / Post-Demo)
 
-#### Multiplayer System
-- **P2P networking** (SteamWorks integration)
-- **Co-op gameplay** (2-4 players planned)
-- Shared progression
-- Difficulty scaling
+#### Steam Integration
+- **Steam Inventory Items** (Target: Demo release if possible)
+  - Trading cards
+  - Collectible items
+  - Profile showcases
+  - Community engagement features
+- Steam Achievements
+- Steam Leaderboards (if applicable)
 
 #### Additional Characters
 Multiple heroes, each with:
@@ -418,6 +425,7 @@ Multiple heroes, each with:
 - Three combat styles
 - Character-specific stages/routes
 - Distinct abilities
+- **Total 6 heroes planned:** Cengiz + 5 more (bloodlines: Joan of Arc, Baldwin IV, Richard Lionheart, Emilia Platter, Hattori Hanzo)
 
 #### Expanded Cities
 - Istanbul
@@ -437,6 +445,7 @@ Multiple heroes, each with:
 - Accessibility options
 
 ### Future Considerations
+- **Multiplayer co-op** (P2P networking via SteamWorks, 2-4 players)
 - Mobile/Console ports
 - Additional game modes
 - Community features
@@ -447,13 +456,49 @@ Multiple heroes, each with:
 ## 🎨 Art & Aesthetic Direction
 
 ### Visual Style
-[To be detailed in Art Style Guide]
 
-**Direction Notes:**
-- Gritty urban environments
-- Realistic character proportions with stylized details
-- Dark, atmospheric color palette reflecting corruption theme
+**Core Aesthetic:** Full 3D brawler with side-scrolling camera, featuring dark atmospheric environments and vibrant character design
+
+**Visual Characteristics:**
+- Painterly 3D with hand-drawn aesthetic feel
+- Dark atmospheres contrasted with vibrant character design
+- Anime-influenced stylization
+- Classic arcade brawler presentation
+- Contemporary urban settings with historical flashback capability
+
+**Character Design:**
+- Semi-chibi proportions (stylized bodies with expressive features)
+- Realistic details with deliberate exaggeration
+- Vibrant character colors pop against darker environments
+- Anime-influenced facial expressions and fluid animation
+- Historical warrior aesthetics blended with modern streetwear
+
+**Environment Design:**
+- Stylized approach with architectural realism
+- Real-world cities reimagined (Paris, Istanbul, London, Tokyo)
+- Dark, atmospheric lighting with neon and vibrant accents
+- Urban decay: graffiti, corruption, visible societal breakdown
+- Dual timeline support: contemporary + historical flashbacks
 - Environmental storytelling through decay and disorder
+- Full 3D environments with depth and interactive elements
+
+**Color Palette:**
+- **Base:** Dark, desaturated urban tones (greys, blacks, muted browns)
+- **Accents:** Vibrant character colors, neon signs, explosive effects
+- **Contrast:** Characters pop against atmospheric backgrounds
+- **Flashbacks:** Warmer/different palette to distinguish time periods
+
+**Technical Approach:**
+- Full 3D gameplay in side-scrolling camera perspective
+- Baked lighting with simulated dynamics through effects, reflections, and projections
+- Particle effects for impact and environmental storytelling
+- Smooth animation prioritizing combat fluidity
+- 3D physics for realistic object interaction
+- **Interactive & animated environments:**
+  - Multi-layered ambient movement (rats scurrying, bushes rolling, debris shifting)
+  - Environmental animations across foreground, midground, and background
+  - Scene vitality through constant subtle motion
+  - Living, breathing world that reacts to combat
 
 ### Audio Direction
 [To be detailed in Audio Documentation]
