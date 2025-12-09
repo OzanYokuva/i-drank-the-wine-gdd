@@ -99,7 +99,11 @@ out/
 # ============================================================
 
 # MkDocs
-site/
+#site/
+site/.next/
+site/node_modules/
+site/.vercel/
+site/out/
 
 # Sphinx
 _build/
@@ -136,3 +140,8 @@ _templates/
 # ============================================================
 # END
 # ============================================================
+ 
+# Site build files 
+site/.next/ 
+site/node_modules/ 
+site/.vercel/ 

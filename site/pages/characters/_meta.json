@@ -1,0 +1,11 @@
+{
+  "*": {
+    "theme": {
+      "breadcrumb": true
+    }
+  },
+  "character-cengiz": "⚔️ Cengiz",
+  "playable-characters": "🎮 Playable Characters",
+  "npcs": "💬 NPCs",
+  "enemies-bosses": "👹 Enemies ^& Bosses"
+}

@@ -1,0 +1,9 @@
+{
+  "*": {
+    "theme": {
+      "breadcrumb": true
+    }
+  },
+  "supported-languages": "🌍 Supported Languages",
+  "localization_completion_summary": "✅ Completion Status"
+}

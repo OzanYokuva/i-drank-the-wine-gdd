@@ -1,0 +1,10 @@
+{
+  "*": {
+    "theme": {
+      "breadcrumb": true
+    }
+  },
+  "main-gdd": "📄 Main GDD",
+  "philosophy-framework": "🔺 Philosophy Framework",
+  "change-log": "📝 Changelog"
+}
