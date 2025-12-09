@@ -68,33 +68,34 @@ async function cleanMdFiles(dir) {
 
 // README.md'leri index.md'ye çevir
 async function renameReadmesToIndex(dir) {
+  if (!fs.existsSync(dir)) return;
+  
   const items = await fs.readdir(dir, { withFileTypes: true });
   
+  // Ana klasördeki README'yi çevir
+  const mainReadme = path.join(dir, 'README.md');
+  const mainIndex = path.join(dir, 'index.md');
+  
+  if (fs.existsSync(mainReadme)) {
+    await fs.rename(mainReadme, mainIndex);
+    console.log(`  ✓ README.md → index.md`);
+  }
+  
+  // Alt klasörleri recursive olarak işle
   for (const item of items) {
     if (item.isDirectory()) {
       const subDir = path.join(dir, item.name);
+      const subReadme = path.join(subDir, 'README.md');
+      const subIndex = path.join(subDir, 'index.md');
       
-      // Bu klasördeki README'yi index'e çevir
-      const readmePath = path.join(subDir, 'README.md');
-      const indexPath = path.join(subDir, 'index.md');
-      
-      if (fs.existsSync(readmePath)) {
-        await fs.rename(readmePath, indexPath);
+      if (fs.existsSync(subReadme)) {
+        await fs.rename(subReadme, subIndex);
         console.log(`  ✓ ${item.name}/README.md → index.md`);
       }
       
       // Daha alt klasörleri de kontrol et
       await renameReadmesToIndex(subDir);
     }
-  }
-  
-  // Ana klasördeki README'yi de çevir
-  const readmePath = path.join(dir, 'README.md');
-  const indexPath = path.join(dir, 'index.md');
-  
-  if (fs.existsSync(readmePath)) {
-    await fs.rename(readmePath, indexPath);
-    console.log(`  ✓ README.md → index.md`);
   }
 }
 
