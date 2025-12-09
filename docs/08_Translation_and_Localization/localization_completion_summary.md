@@ -27,6 +27,7 @@ All **12 languages** are fully translated for demo content:
 
 ---
 
+
 ## 📋 CSV Files
 
 All 7 CSV files contain complete translations for all 12 languages:
