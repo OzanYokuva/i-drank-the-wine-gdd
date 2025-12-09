@@ -13,7 +13,6 @@ This section contains detailed profiles for every character in the game, from pl
 ```
 03_Characters_and_Actors/
 ├── README.md                    ← This file
-├── character-cengiz.md         ← Playable hero profile
 ├── playable-characters/        ← Additional playable heroes
 ├── npcs/                       ← Non-player characters
 └── enemies-bosses/             ← Antagonists and challenges
@@ -28,7 +27,7 @@ This section contains detailed profiles for every character in the game, from pl
 
 | Character | Bloodline | Status | Document |
 |-----------|-----------|--------|----------|
-| **Cengiz** | Hulagu Khan | ✅ Playable (Demo) | [character-cengiz.md](character-cengiz.md) |
+| **Cengiz** | Hulagu Khan | ✅ Playable (Demo) | [character-cengiz.md](playable-characters/character-cengiz.md) |
 | TBD | Joan of Arc | 🔴 Planned | Coming Soon |
 | TBD | Baldwin IV | 🔴 Planned | Coming Soon |
 | TBD | Richard the Lionheart | 🔴 Planned | Coming Soon |
@@ -205,7 +204,7 @@ Ensures consistency across all character documentation.
 - **[Enemies & Bosses](enemies-bosses/)** - Challenges and antagonists
 
 ### Featured Characters
-- **[Cengiz](character-cengiz.md)** - First playable hero (Demo)
+- **[Cengiz](playable-characters/character-cengiz.md)** - First playable hero (Demo)
 
 ### Coming Soon
 - Second playable hero profile
