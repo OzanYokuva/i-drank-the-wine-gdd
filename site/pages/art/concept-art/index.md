@@ -1,3 +1,7 @@
+---
+asIndexPage: true
+---
+
 # Concept Art
 
 ## Overview

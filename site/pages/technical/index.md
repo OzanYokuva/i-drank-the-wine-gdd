@@ -1,3 +1,7 @@
+---
+asIndexPage: true
+---
+
 # 07 - Technical Documentation
 
 ## Overview

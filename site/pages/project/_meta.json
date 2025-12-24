@@ -1,8 +1,11 @@
-{
-  "*": {
-    "theme": {
-      "breadcrumb": true
-    }
-  },
-  "Task-List": "📋 Task List"
-}
+{ 
+  "*": { 
+    "theme": { 
+      "breadcrumb": true 
+    } 
+  }, 
+  "index": { 
+    "display": "hidden" 
+  }, 
+  "Task-List": "📋 Task List" 
+} 

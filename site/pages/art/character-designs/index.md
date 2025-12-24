@@ -1,3 +1,7 @@
+---
+asIndexPage: true
+---
+
 # Character Designs
 
 ## Overview

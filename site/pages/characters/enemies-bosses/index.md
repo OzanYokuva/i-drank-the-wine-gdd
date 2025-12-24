@@ -1,3 +1,7 @@
+---
+asIndexPage: true
+---
+
 # Enemies and Bosses
 
 ## Overview

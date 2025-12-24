@@ -34,7 +34,7 @@ async function syncDocs() {
         overwrite: true
       });
       
-      // README.md'leri index.md'ye dönüştür
+      // README.md'leri index.md'ye dönüştür VE front matter ekle
       await renameReadmesToIndex(mapping.to);
       
       console.log(`✅ ${mapping.from} → ${mapping.to}\n`);
@@ -66,7 +66,7 @@ async function cleanMdFiles(dir) {
   }
 }
 
-// README.md'leri index.md'ye çevir
+// README.md'leri index.md'ye çevir VE asIndexPage front matter ekle
 async function renameReadmesToIndex(dir) {
   if (!fs.existsSync(dir)) return;
   
@@ -77,8 +77,25 @@ async function renameReadmesToIndex(dir) {
   const mainIndex = path.join(dir, 'index.md');
   
   if (fs.existsSync(mainReadme)) {
-    await fs.rename(mainReadme, mainIndex);
-    console.log(`  ✓ README.md → index.md`);
+    // README içeriğini oku
+    let content = await fs.readFile(mainReadme, 'utf-8');
+    
+    // Front matter ekle (yoksa)
+    if (!content.startsWith('---')) {
+      content = `---
+asIndexPage: true
+---
+
+${content}`;
+    }
+    
+    // index.md olarak kaydet
+    await fs.writeFile(mainIndex, content);
+    
+    // Eski README'yi sil
+    await fs.remove(mainReadme);
+    
+    console.log(`  ✓ README.md → index.md (with asIndexPage)`);
   }
   
   // Alt klasörleri recursive olarak işle
@@ -89,11 +106,28 @@ async function renameReadmesToIndex(dir) {
       const subIndex = path.join(subDir, 'index.md');
       
       if (fs.existsSync(subReadme)) {
-        await fs.rename(subReadme, subIndex);
-        console.log(`  ✓ ${item.name}/README.md → index.md`);
+        // README içeriğini oku
+        let content = await fs.readFile(subReadme, 'utf-8');
+        
+        // Front matter ekle (yoksa)
+        if (!content.startsWith('---')) {
+          content = `---
+asIndexPage: true
+---
+
+${content}`;
+        }
+        
+        // index.md olarak kaydet
+        await fs.writeFile(subIndex, content);
+        
+        // Eski README'yi sil
+        await fs.remove(subReadme);
+        
+        console.log(`  ✓ ${item.name}/README.md → index.md (with asIndexPage)`);
       }
       
-      // Daha alt klasörleri de kontrol et
+      // Daha alt klasörleri de kontrol et (recursive)
       await renameReadmesToIndex(subDir);
     }
   }

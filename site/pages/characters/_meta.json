@@ -1,8 +1,20 @@
-{
-  "*": {
-    "theme": {
-      "breadcrumb": true
-    }
-  },
-  "character-cengiz": "⚔️ Cengiz"
-}
+{ 
+  "*": { 
+    "theme": { 
+      "breadcrumb": true 
+    } 
+  }, 
+  "index": { 
+    "display": "hidden" 
+  }, 
+  "character-cengiz": "⚔️ Cengiz", 
+  "playable-characters": { 
+    "display": "hidden" 
+  }, 
+  "npcs": { 
+    "display": "hidden" 
+  }, 
+  "enemies-bosses": { 
+    "display": "hidden" 
+  } 
+} 

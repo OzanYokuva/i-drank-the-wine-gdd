@@ -1,3 +1,7 @@
+---
+asIndexPage: true
+---
+
 # Translation and Localization
 
 ## Overview

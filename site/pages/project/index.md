@@ -1,3 +1,7 @@
+---
+asIndexPage: true
+---
+
 # 10 - Project Management
 
 ## Overview

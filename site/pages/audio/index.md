@@ -1,3 +1,7 @@
+---
+asIndexPage: true
+---
+
 # 06 - Audio and Music
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+asIndexPage: true
+---
+
 # 01 - Game Design Document
 
 ## Overview

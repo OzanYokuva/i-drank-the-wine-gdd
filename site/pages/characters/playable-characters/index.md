@@ -1,3 +1,7 @@
+---
+asIndexPage: true
+---
+
 # Playable Characters
 
 ## Overview

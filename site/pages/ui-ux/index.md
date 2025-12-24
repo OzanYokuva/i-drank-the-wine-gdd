@@ -1,3 +1,7 @@
+---
+asIndexPage: true
+---
+
 # 09 - UI/UX
 
 ## Overview

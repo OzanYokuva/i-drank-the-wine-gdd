@@ -4,6 +4,18 @@
       "breadcrumb": true
     }
   },
+  "index": {
+    "display": "hidden"
+  },
   "supported-languages": "🌍 Supported Languages",
-  "localization_completion_summary": "✅ Completion Status"
+  "localization_completion_summary": "✅ Completion Status",
+  "CSV": {
+    "display": "hidden"
+  },
+  "english": {
+    "display": "hidden"
+  },
+  "turkish": {
+    "display": "hidden"
+  }
 }

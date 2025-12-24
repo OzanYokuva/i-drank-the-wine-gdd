@@ -1,10 +1,13 @@
-{
-  "*": {
-    "theme": {
-      "breadcrumb": true
-    }
-  },
-  "main-gdd": "📄 Main GDD",
-  "philosophy-framework": "🔺 Philosophy Framework",
-  "change-log": "📝 Changelog"
-}
+{ 
+  "*": { 
+    "theme": { 
+      "breadcrumb": true 
+    } 
+  }, 
+  "index": { 
+    "display": "hidden" 
+  }, 
+  "main-gdd": "📄 Main GDD", 
+  "philosophy-framework": "🔺 Philosophy Framework", 
+  "change-log": "📝 Changelog" 
+} 

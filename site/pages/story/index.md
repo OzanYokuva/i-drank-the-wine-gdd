@@ -1,3 +1,7 @@
+---
+asIndexPage: true
+---
+
 # 04 - Story and World
 
 ## Overview

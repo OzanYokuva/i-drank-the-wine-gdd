@@ -1,3 +1,7 @@
+---
+asIndexPage: true
+---
+
 # Turkish Localization
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+asIndexPage: true
+---
+
 # 02 - Game Mechanics
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+asIndexPage: true
+---
+
 # 05 - Art and Graphics
 
 ## Overview
