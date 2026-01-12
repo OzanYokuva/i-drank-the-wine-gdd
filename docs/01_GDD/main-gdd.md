@@ -342,7 +342,7 @@ Combat feels tactical and impactful:
 
 #### 5. **🌍 Interconnected Real-World Cities**
 Each city represents a stage in both narrative and gameplay:
-- Paris, Istanbul, London, Tokyo
+- Paris, Istanbul, London, Tokyo, Los Angeles, Barcelona
 - Multi-stage routes with branching paths
 - Mini-bosses and elite encounters
 - Powerful main boss per city
@@ -432,7 +432,8 @@ Multiple heroes, each with:
 - Istanbul
 - London  
 - Tokyo
-- Additional locations TBD
+- Los Angeles
+- Barcelona
 
 #### Advanced Mechanics
 - Character-specific abilities
@@ -553,9 +554,11 @@ Each city represents:
 - 3 playable stages showcasing core mechanics
 
 **Planned Cities:**
-- **Istanbul:** [Narrative role TBD]
-- **London:** [Narrative role TBD]
-- **Tokyo:** [Narrative role TBD]
+- **Istanbul:** East-West bridge, identity crisis, gateway of displacement
+- **London:** Post-colonial tension, knife crime, institutional decay
+- **Tokyo:** Xenophobia, isolation, Yakuza presence, societal pressure
+- **Los Angeles:** Border crisis, gang culture, homeless epidemic, wealth disparity
+- **Barcelona:** African migration gateway, Raval district tension, tourist vs local conflict (Studio home city)
 
 ---
 
