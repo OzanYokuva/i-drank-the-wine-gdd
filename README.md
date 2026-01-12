@@ -20,9 +20,10 @@
 This repository contains all game design documentation, technical specifications, creative assets references, and project management materials.
 
 ### Project Status
-- **Stage:** Demo Complete → Pre-Production Planning
+- **Stage:** Demo Complete — Ready for Release
+- **Target Demo Release:** February 1, 2026
 - **Current Version:** 0.1.0
-- **Last Updated:** December 1, 2024
+- **Last Updated:** January 12, 2026
 - **Target Platforms:** PC (Demo Ready), Mobile/Console (Planned)
 - **Engine:** Unity + SteamWorks
 

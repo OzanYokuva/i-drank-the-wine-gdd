@@ -25,7 +25,8 @@
 **Platform:** PC (Primary), Mobile, Console (Planned)  
 **Engine:** Unity  
 **Target Audience:** Action game enthusiasts, story-driven gamers, 18-35 age group  
-**Development Stage:** Demo Complete (3 playable stages)
+**Development Stage:** Demo Complete — Ready for Release (3 playable stages)
+**Release Status:** Pending — aligned with marketing/publishing timeline
 
 **Core Hook:** Experience a reverse narrative through heroes who carry the blood of history's greatest warriors—fighting against a silent global invasion while discovering that their righteous anger burns away false identities layer by layer, revealing their true inheritance and ultimate role in an eternal balance.
 
@@ -582,9 +583,10 @@ Each city represents:
 
 ## 🛣️ Development Roadmap
 
-**Current Phase:** Documentation & Planning  
-**Demo Status:** Complete (3 stages, 1 character)  
-**Code Status:** ~80% complete for demo scope
+**Current Phase:** Pre-Release Preparation  
+**Demo Status:** Complete — Ready for Release (3 stages, 1 character)  
+**Code Status:** ~80% complete for demo scope  
+**Target Demo Release:** February 1, 2026 (aligned with marketing)
 
 ### Next Steps
 1. Complete GDD documentation
