@@ -25,7 +25,8 @@
 **Platform:** PC (Primary), Mobile, Console (Planned)  
 **Engine:** Unity  
 **Target Audience:** Action game enthusiasts, story-driven gamers, 18-35 age group  
-**Development Stage:** Demo Complete (3 playable stages)
+**Development Stage:** Demo Complete — Ready for Release (3 playable stages)
+**Release Status:** Pending — aligned with marketing/publishing timeline
 
 **Core Hook:** Experience a reverse narrative through heroes who carry the blood of history's greatest warriors—fighting against a silent global invasion while discovering that their righteous anger burns away false identities layer by layer, revealing their true inheritance and ultimate role in an eternal balance.
 
@@ -341,7 +342,7 @@ Combat feels tactical and impactful:
 
 #### 5. **🌍 Interconnected Real-World Cities**
 Each city represents a stage in both narrative and gameplay:
-- Paris, Istanbul, London, Tokyo
+- Paris, Istanbul, London, Tokyo, Los Angeles, Barcelona
 - Multi-stage routes with branching paths
 - Mini-bosses and elite encounters
 - Powerful main boss per city
@@ -431,7 +432,8 @@ Multiple heroes, each with:
 - Istanbul
 - London  
 - Tokyo
-- Additional locations TBD
+- Los Angeles
+- Barcelona
 
 #### Advanced Mechanics
 - Character-specific abilities
@@ -552,9 +554,11 @@ Each city represents:
 - 3 playable stages showcasing core mechanics
 
 **Planned Cities:**
-- **Istanbul:** [Narrative role TBD]
-- **London:** [Narrative role TBD]
-- **Tokyo:** [Narrative role TBD]
+- **Istanbul:** East-West bridge, identity crisis, gateway of displacement
+- **London:** Post-colonial tension, knife crime, institutional decay
+- **Tokyo:** Xenophobia, isolation, Yakuza presence, societal pressure
+- **Los Angeles:** Border crisis, gang culture, homeless epidemic, wealth disparity
+- **Barcelona:** African migration gateway, Raval district tension, tourist vs local conflict (Studio home city)
 
 ---
 
@@ -582,9 +586,10 @@ Each city represents:
 
 ## 🛣️ Development Roadmap
 
-**Current Phase:** Documentation & Planning  
-**Demo Status:** Complete (3 stages, 1 character)  
-**Code Status:** ~80% complete for demo scope
+**Current Phase:** Pre-Release Preparation  
+**Demo Status:** Complete — Ready for Release (3 stages, 1 character)  
+**Code Status:** ~80% complete for demo scope  
+**Target Demo Release:** February 1, 2026 (aligned with marketing)
 
 ### Next Steps
 1. Complete GDD documentation
