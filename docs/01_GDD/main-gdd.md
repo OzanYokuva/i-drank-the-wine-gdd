@@ -584,6 +584,51 @@ Each city represents:
 
 ---
 
+## 👥 Team
+
+### Current Team
+
+**Ozan Yokuva** — Co-Founder / Lead
+- 25+ years in game industry (since 2005 in mobile)
+- Co-Owner at Engineered Illusions S.L.
+- Previous: Studio Lead @ Skydra Games, Co-Founder @ El-Capitan, Studio Lead @ Champy Games
+- Computer Engineering degree (Doğuş University) 2004
+- Expertise: Game development, publishing relations, business strategy
+- 30+ years software development, 10+ programming languages
+
+**Kerem Yokuva** — Co-Founder / Technical Lead
+- Senior Unity Developer
+- Previous: Mafia Games, Joygame Publishing, Azerion, Gamedore
+- Istanbul Technical University graduate
+- Multiple shipped titles (20+ apps on App Store)
+- Expertise: Unity development, shader programming, 3D graphics
+
+### Team Strengths
+- Brothers with complementary skills (business + technical)
+- Decades of combined industry experience
+- Shipped multiple titles across platforms
+- Small team = fast decisions, unified vision
+- Passion project with professional execution capability
+
+### Planned Expansion
+**Immediate needs (if funded):**
+- Concept Artist — character/environment design support
+- Production Support — documentation, planning, process management
+
+**If no publisher deal:**
+- Marketing Lead — community building, campaign management
+
+### Growth Philosophy
+Scale incrementally based on milestones:
+- **Phase 1:** Core team (current) — demo polish, pitch
+- **Phase 2:** +1-2 — art/production support
+- **Phase 3:** Based on funding — expand as needed
+
+*No premature scaling. Prove → Grow → Prove again.*
+
+---
+
+
 ## 🛣️ Development Roadmap
 
 **Current Phase:** Pre-Release Preparation  
